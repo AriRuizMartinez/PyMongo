@@ -6,9 +6,9 @@ from pprint import *
 from pymongo import *
 from datetime import datetime
 
-client = MongoClient("mongodb+srv://jfunesa:1234@patatas.guqeerw.mongodb.net/")
+client = MongoClient("Your Mongo URI")
 
-clienteMongoEngine = connect(host="mongodb+srv://jfunesa:1234@patatas.guqeerw.mongodb.net/project")
+clienteMongoEngine = connect(host="Your Mongo URI")
 
 db = client.project
 #db = client["Pokes"]
